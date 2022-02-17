@@ -1,4 +1,4 @@
-# Word-list-Creator
+# Wordlist-Creator
 
 This tool will create every combination of given words. Its actually simple to code but i cant find any tools for take all permutation of given words.
 For example if you give 5 word, this program will take permutation of 2 to 5 so you will have all options.
