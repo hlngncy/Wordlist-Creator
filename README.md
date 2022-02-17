@@ -8,7 +8,7 @@ And ofcourse I dont take any responsibility how you will use it.
 
 for get the code:
 ```
-git clone python3 wlc.py
+git clone https://github.com/RedK0i/Wordlist-Creator
 ```
 
 After that you need to find location of code and then run it:
