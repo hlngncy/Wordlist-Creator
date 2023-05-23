@@ -2,7 +2,6 @@
 
 This tool will create every combination of given parameters. Its actually simple to code but i cant find any tools for take all permutation of given parameters.
 For example if you give 5 parameter, this program will take permutation of 2 to 5 so you will have all options.
-And ofcourse I dont take any responsibility how you will use it.
 
 # Usage 
 
