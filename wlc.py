@@ -39,13 +39,13 @@ while True:
         things = str(input("\033[1;34mplease enter words(a,b,c): "))
         list1 = things.split(",")
         list2 = []
-        sayac = 1
-        while (sayac < len(list1)):
-            a = itertools.permutations(list1, sayac + 1)
+        counter = 1
+        while (coutner < len(list1)):
+            a = itertools.permutations(list1, counter + 1)
             for j in a:
                 c = ''.join(j)
                 list2.append(c)
-            sayac += 1
+            counter += 1
         wlc(list2)
         print("\033[1;32m wordlist.txt created succesfully!")
         time.sleep(3)
@@ -54,13 +54,13 @@ while True:
         things = str(input("\033[1;34mPlease enter words(a,b,c): "))
         list1 = things.split(",")
         list2 = []
-        sayac = 1
-        while (sayac < len(list1)):
-            a = itertools.permutations(list1, sayac + 1)
+        counter = 1
+        while (counter < len(list1)):
+            a = itertools.permutations(list1, counter + 1)
             for j in a:
                 c = ''.join(j)
                 list2.append(c)
-            sayac += 1
+            counter += 1
         for i in list2:
             print("\033[1;36m", i)
         print("\033[1;32mAll permutation finished!")
